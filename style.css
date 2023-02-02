@@ -1,0 +1,98 @@
+body{
+  background-color: #f3f4f6;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.cards {
+  border: 1px solid #000000;
+  border-radius: 25px;
+  background-color: white;
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  width: 700px;
+  margin: 24px auto;
+  padding: 16px;
+}
+
+#home {
+  border: 1px solid #000000;
+  border-radius: 25px;
+  background-color: white;
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  width: 800px;
+  margin: 32px auto;
+  padding: 32px;
+}
+
+.main_title{
+  color: #674188;
+  font-weight: 700;
+  font-size: 300;
+  text-align: center;
+}
+
+.second_title{
+  color: #2563eb;
+  font-weight: 600;
+  font-size: 250;
+  text-align: center;
+}
+
+p{
+  text-align: center;
+  color: #111827;
+  font-size: 16px;
+  font-weight: 500
+}
+
+ul{
+  color: #111827;
+  font-size: 16px;
+  font-weight: 500;
+  list-style: none;
+}
+
+a{
+  color: #20262E;
+}
+
+a:hover{
+  color: #121418;
+}
+
+
+img{
+  height: 400px;
+  text-align: center;
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+}
+
+.socials{
+  text-align: center;
+  font-size: 50px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}

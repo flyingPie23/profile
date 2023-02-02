@@ -16,17 +16,9 @@ body{
   width: 700px;
   margin: 24px auto;
   padding: 16px;
+  text-align: center;
 }
 
-#home {
-  border: 1px solid #000000;
-  border-radius: 25px;
-  background-color: white;
-  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
-  width: 800px;
-  margin: 32px auto;
-  padding: 32px;
-}
 
 .main_title{
   color: #674188;
@@ -53,7 +45,7 @@ ul{
   color: #111827;
   font-size: 16px;
   font-weight: 500;
-  list-style: none;
+  list-style-type: none;
 }
 
 a{
@@ -67,7 +59,6 @@ a:hover{
 
 img{
   height: 400px;
-  text-align: center;
   box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
 }
 
